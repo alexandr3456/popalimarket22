@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-01-01T00:02:30Z",
+  "market_slug": "btc-updown-5m-example",
+  "market_start": "2026-01-01T00:00:00Z",
+  "market_end": "2026-01-01T00:05:00Z",
+  "market_source_timestamp": "2026-01-01T00:02:29Z",
+  "polymarket_source_timestamp": "2026-01-01T00:02:29Z",
+  "btc_points": [
+    {"timestamp":"2026-01-01T00:00:00Z","price":100000,"buy_volume":10,"sell_volume":5,"bid_depth":70,"ask_depth":30},
+    {"timestamp":"2026-01-01T00:00:30Z","price":100030,"buy_volume":10,"sell_volume":5,"bid_depth":70,"ask_depth":30},
+    {"timestamp":"2026-01-01T00:01:00Z","price":100070,"buy_volume":12,"sell_volume":4,"bid_depth":75,"ask_depth":25},
+    {"timestamp":"2026-01-01T00:01:30Z","price":100110,"buy_volume":12,"sell_volume":4,"bid_depth":75,"ask_depth":25},
+    {"timestamp":"2026-01-01T00:02:00Z","price":100160,"buy_volume":14,"sell_volume":3,"bid_depth":80,"ask_depth":20},
+    {"timestamp":"2026-01-01T00:02:30Z","price":100220,"buy_volume":14,"sell_volume":3,"bid_depth":80,"ask_depth":20}
+  ],
+  "polymarket": {
+    "up_bid": 0.52, "up_ask": 0.54, "up_liquidity": 100,
+    "down_bid": 0.44, "down_ask": 0.46, "down_liquidity": 100
+  },
+  "paper_state": {"has_open_position": false, "market_already_traded": false, "daily_trade_count": 0}
+}
